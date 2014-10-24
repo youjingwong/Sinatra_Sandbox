@@ -1,0 +1,56 @@
+<div class="container">
+  <form action = "/cool_url" method="GET">
+    Text Field: <input type="text" name="textfield"><br>
+    <input type="submit">
+  </form>
+  <form action = "/cool_url" method="POST">
+    Second Field: <input type="text" name="second"><br>
+    <input type="submit">
+  </form>
+
+  <form action="/post_url" method="GET">
+    <div align="center">
+      <textarea cols="40" rows="5" name="myname">
+      </textarea>
+    <input type="submit">
+    </div>
+  </form>
+</div>
+
+<form name="radio_buttons" action="cool_url" method="POST">
+  <div align="center"><br>
+    <input type="radio" name="group1" value="Milk"> Milk<br>
+    <input type="radio" name="group1" value="Butter" checked> Butter<br>
+    <input type="radio" name="group1" value="Cheese"> Cheese
+    <hr>
+    <input type="submit">
+  </div>
+  <div align="center"><br>
+    <input type="radio" name="group2" value="Water"> Water<br>
+    <input type="radio" name="group2" value="Beer"> Beer<br>
+    <input type="radio" name="group2" value="Wine" checked> Wine<br>
+    <input type="submit" value = "GO!">
+  </div>
+</form>
+
+<form name="select_box" action="cool_url" method="POST">
+  <input type="text" name="post[title]">
+  <input type="text" name="post[price]">
+  <textarea name="post[description]"></textarea>
+  <select name="select_box">
+    <option>Milk</option>
+    <option>Coffee</option>
+    <option>Tea</option>
+    <input type="submit">
+  </select>
+</form>
+
+<form name="checkbox" action="cool_url" method="POST">
+<div align="center"><br>
+<input type="checkbox" name="option1" value="Milk"> Milk<br>
+<input type="checkbox" name="option2" value="Butter" checked> Butter<br>
+<input type="checkbox" name="option3" value="Cheese"> Cheese<br>
+<br>
+<input type="submit">
+</div>
+</form>
